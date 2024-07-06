@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    margin-bottom: 40px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+body{
+    background:  url(numero.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 16px;
+    align-items: center;
+    border: 2px solid black;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298, #64b3f4);
+    
+}
+
+form input{
+    width:  380px;
+    padding: 8px;
+    margin-right: 16px;
+}
+
+form button{
+    width: 120px;
+    padding: 8px;
+}
+
+table{
+    width: 100%;
+    border-spacing: 0px;
+}
+
+table th{
+    padding: 16px;
+    border-bottom: 4px solid black;
+}
+
+table td{
+    padding: 16px;
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+
+.btn-excluir{
+    border: none;
+    padding: 8px;
+    background-color: red;
+    color: whitesmoke;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
